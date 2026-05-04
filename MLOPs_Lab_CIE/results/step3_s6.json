@@ -1,0 +1,7 @@
+{
+    "registered_model_name": "pathscan-report-turnaround-hours-predictor",
+    "version": 1,
+    "run_id": "c3c93f990ca44b1596836ae94d5ca869",
+    "source_metric": "rmse",
+    "source_metric_value": 5.2983
+}
