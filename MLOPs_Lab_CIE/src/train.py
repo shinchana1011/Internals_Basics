@@ -90,5 +90,4 @@ output = {
 
 with open("results/step1_s1.json", "w") as f:
     json.dump(output, f, indent=4)
-
 print(json.dumps(output, indent=4))
