@@ -1,5 +1,7 @@
-venv/ 
-__pycache__/ 
-*.pyc mlruns/ 
-.DS_Store 
-*.log 
+__pycache__/
+*.pyc
+venv/
+.env
+.venv/
+mlruns/
+.DS_Store

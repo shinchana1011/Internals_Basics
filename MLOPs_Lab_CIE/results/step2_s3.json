@@ -1,0 +1,12 @@
+{
+    "image_name": "pathscan-predictor",
+    "image_tag": "v1",
+    "base_image": "python:3.10-slim",
+    "test_input": {
+        "sample_count": 30,
+        "test_complexity": 3,
+        "lab_technician_count": 5,
+        "is_urgent": 1
+    },
+    "prediction": 32.3432
+}
