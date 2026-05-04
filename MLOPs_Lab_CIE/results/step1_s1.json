@@ -1,0 +1,18 @@
+{
+    "experiment_name": "pathscan-report-turnaround-hours",
+    "models": [
+        {
+            "name": "SVR",
+            "mae": 8.5709,
+            "rmse": 10.4677
+        },
+        {
+            "name": "GradientBoosting",
+            "mae": 4.1399,
+            "rmse": 5.2983
+        }
+    ],
+    "best_model": "GradientBoosting",
+    "best_metric_name": "rmse",
+    "best_metric_value": 5.2983
+}
