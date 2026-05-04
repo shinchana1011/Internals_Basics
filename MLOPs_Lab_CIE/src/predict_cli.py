@@ -34,3 +34,21 @@ output = {
 }
 
 print(json.dumps(output))
+
+os.makedirs("results", exist_ok=True)
+
+output_json = {
+    "image_name": "pathscan-predictor",
+    "image_tag": "v1",
+    "base_image": "python:3.10-slim",
+    "test_input": {
+        "sample_count": args.sample_count,
+        "test_complexity": args.test_complexity,
+        "lab_technician_count": args.lab_technician_count,
+        "is_urgent": args.is_urgent
+    },
+    "prediction": round(prediction, 4)
+}
+
+with open("results/step2_s3.json", "w") as f:
+    json.dump(output_json, f, indent=4)
